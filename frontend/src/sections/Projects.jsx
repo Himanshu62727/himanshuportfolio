@@ -28,17 +28,23 @@ export default function Projects() {
       id: 2,
       title: 'Live Chat Application using Socket.io',
       category: 'Back-end Development',
-      summary: 'Dynamic service portfolio booking engine with Express routing, JWT authentication, and MongoDB storage.',
+      summary: 'Real-Time Chat Application – Developed a Telegram-like chat application using Node.js, Express.js, Socket.IO, HTML, CSS, and JavaScript, featuring one-to-one real-time messaging, responsive UI, and low-latency WebSocket communication.',
       image: '/LiveChat.png',
       tech: ['HTML5 & CSS3', 'Express.js', 'Socket.io'],
-      github: 'https://github.com',
-      live: 'https://github.com',
-      details: 'A complete service marketplace hosting multiple catalog categories. It incorporates server-side pagination, user role permissions (Buyer, Service Provider, Admin), structured mongoose database aggregates for ratings/reviews, and secure token storage.',
+      github: 'https://github.com/Himanshu62727/chatsocketio',
+      live: 'https://chatsocketio-umber.vercel.app/',
+      details: 'Developed a Telegram-inspired real-time chat application using Node.js, Express.js, Socket.IO, HTML, CSS, and JavaScript. Implemented one-to-one messaging with instant message delivery through WebSocket-based communication. Managed user connections, disconnections, and message routing using Socket.IO events. Designed a responsive chat interface with sender/receiver message layouts, timestamps, and automatic scrolling Built an event-driven backend with Express.js to provide seamless and low-latency communication.',
       features: [
-        'Secure user registration & login (JWT auth cookies)',
-        'Provider dashboard with analytics and order tracking',
-        'Filtering and fuzzy text search query indices',
-        'MongoDB aggregates for calculations of rating scores'
+          Real-time messaging using Socket.IO and WebSockets,
+          One-to-one private chat between users,
+          Instant message delivery without page refresh,
+          User connection and disconnection handling,
+          Online/offline status indication,
+          Chat interface with separate sender and receiver message layouts,
+          Message timestamps,
+          Auto-scroll to the latest message,
+          Responsive design for desktop and mobile devices,
+          Event-driven communication using Node.js, Express.js, and Socket.IO.
       ]
     },
     {
@@ -65,8 +71,8 @@ export default function Projects() {
       summary: 'Comprehensive healthcare booking engine with live video calling, doctor schedule aggregations, and prescriptions database.',
       image: '/Youtube.png',
       tech: ['HTML5, CSS3, JavaScript', 'Axios'],
-      github: 'https://github.com',
-      live: 'https://github.com',
+      github: 'https://github.com/Himanshu62727/Youtubecloneapi',
+      live: 'https://youtubeclonesearch.netlify.app/',
       details: 'HealthSync connects patients and clinicians instantly. Renders doctor schedule slots dynamically, handles WebRTC audio/video call synchronization, stores patient medical histories securely with Mongoose schemas, and notifies users with web socket alerts.',
       features: [
         'WebRTC real-time audio/video clinic consulting',
@@ -82,8 +88,8 @@ export default function Projects() {
       summary: 'Text highlighting dashboard for Named Entity Recognition (NER), relationship mapping, and training data tagging.',
       image: '/project_nlp.jpg',
       tech: ['React.js', 'CSS Selection API', 'JSON Export', 'Tailwind CSS', 'Redux'],
-      github: 'https://github.com/Himanshu62727/Youtubecloneapi',
-      live: 'https://youtubeclonesearch.netlify.app/',
+      github: 'https://github.com',
+      live: 'https://github.com',
       details: 'A streamlined annotation tool specialized for Natural Language Processing (NLP). Allows annotators to highlight passages of text, apply custom entity tags (e.g., PERSON, LOCATION, ORG), map token relationships, and export datasets directly to SpaCy or HuggingFace formats.',
       features: [
         'Precision text selection tokenization tagging',
